@@ -12,6 +12,6 @@ public class ReSTHookerPing {
                 .when()
                 .get()
                 .then()
-                .statusCode(202);
+                .statusCode(201);
     }
 }
