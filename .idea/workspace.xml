@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cdd8edb-0550-4bca-997f-3a95229efd7b" name="Changes" comment="Get Response">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/POST/BDDStyle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/POST/NonBDD.java" afterDir="false" />
+    <list default="true" id="2cdd8edb-0550-4bca-997f-3a95229efd7b" name="Changes" comment="POST Request">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/DELETE/DeleteBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/PATCH/UpdatePartialDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/PUT/UpdateDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/CRUD/GET/NonBDDStyle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/GET/NonBDDStyle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +69,16 @@
     "Application.ReSTHookerPing.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.BDDStyle.executor": "Run",
     "TestNG.C:/Users/Siddh/IdeaProjects/APIAutomationUsingReSTAssuaredLibrary/testng.xml.executor": "Run",
+    "TestNG.DeleteBooking.executor": "Run",
     "TestNG.NonBDD.executor": "Run",
     "TestNG.NonBDDStyle.executor": "Run",
     "TestNG.ReSTHooker.executor": "Run",
+    "TestNG.Sidebyside.executor": "Run",
+    "TestNG.UpdateDetails.executor": "Run",
+    "TestNG.UpdatePartialDetails.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -134,7 +141,31 @@
       <option name="project" value="LOCAL" />
       <updated>1723989904643</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="POST Request">
+      <option name="closed" value="true" />
+      <created>1723991723974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723991723974</updated>
+    </task>
+    <task id="LOCAL-00008" summary="POST Request">
+      <option name="closed" value="true" />
+      <created>1723991913467</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723991913467</updated>
+    </task>
+    <task id="LOCAL-00009" summary="POST Request">
+      <option name="closed" value="true" />
+      <created>1723991955603</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723991955603</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +185,7 @@
     <MESSAGE value="TestNG Dependency" />
     <MESSAGE value="TestNG" />
     <MESSAGE value="Get Response" />
-    <option name="LAST_COMMIT_MESSAGE" value="Get Response" />
+    <MESSAGE value="POST Request" />
+    <option name="LAST_COMMIT_MESSAGE" value="POST Request" />
   </component>
 </project>
