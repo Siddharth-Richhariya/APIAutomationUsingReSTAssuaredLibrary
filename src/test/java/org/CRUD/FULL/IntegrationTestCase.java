@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 
-public class GetAndPUT {
+public class IntegrationTestCase {
     RequestSpecification requestSpecification = RestAssured.given();
     Response response;
     ValidatableResponse validatableResponse;
