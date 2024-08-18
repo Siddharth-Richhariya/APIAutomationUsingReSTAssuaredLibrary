@@ -7,7 +7,6 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-import java.sql.SQLOutput;
 
 public class NonBDD {
     RequestSpecification r = RestAssured.given();
