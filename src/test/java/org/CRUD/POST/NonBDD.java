@@ -35,7 +35,7 @@ public class NonBDD {
         r.contentType(ContentType.JSON);
 
         response = r.when().log().all().post();
-        String responseString = response.toString();
+        String responseString = response.asString();
         System.out.println(responseString);
 
         validatableResponse = response.then();
@@ -53,7 +53,7 @@ public class NonBDD {
         r.contentType(ContentType.JSON);
 
         response = r.when().log().all().post();
-        String responseString = response.toString();
+        String responseString = response.asString();
         System.out.println(responseString);
 
         validatableResponse = response.then();
