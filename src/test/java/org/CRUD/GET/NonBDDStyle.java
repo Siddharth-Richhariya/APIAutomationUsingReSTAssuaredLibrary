@@ -9,7 +9,7 @@ public class NonBDDStyle {
     public void getResponse(){
         RequestSpecification r = RestAssured.given();
         r.baseUri("https://restful-booker.herokuapp.com");
-        r.basePath("/ping");
+        r.basePath("/2595");
         r.when().log().all().get();
         r.then().log().all().statusCode(200);
     }
