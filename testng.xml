@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="APIAutomationUsingReSTAssuaredLibrary">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Siddh/IdeaProjects/APIAutomationUsingReSTAssuaredLibrary/src/test/java/org/CRUD/FULL/IntegrationTestCase.java">
         <classes>
-            <class name="org.TestNG.ReSTHooker"> </class>
+            <class name="org.CRUD.FULL.IntegrationTestCase">
+                <methods>
+                    <include name="updateDetails"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

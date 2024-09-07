@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cdd8edb-0550-4bca-997f-3a95229efd7b" name="Changes" comment="POST Request">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/DELETE/DeleteBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/PATCH/UpdatePartialDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/PUT/UpdateDetails.java" afterDir="false" />
+    <list default="true" id="2cdd8edb-0550-4bca-997f-3a95229efd7b" name="Changes" comment="IntegrationTestCase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/CRUD/FULL/IntegrationTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/CRUD/FULL/IntegrationTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,26 +61,28 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ReSTHookerPing.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.BDDStyle.executor": "Run",
-    "TestNG.C:/Users/Siddh/IdeaProjects/APIAutomationUsingReSTAssuaredLibrary/testng.xml.executor": "Run",
-    "TestNG.DeleteBooking.executor": "Run",
-    "TestNG.NonBDD.executor": "Run",
-    "TestNG.NonBDDStyle.executor": "Run",
-    "TestNG.ReSTHooker.executor": "Run",
-    "TestNG.Sidebyside.executor": "Run",
-    "TestNG.UpdateDetails.executor": "Run",
-    "TestNG.UpdatePartialDetails.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ReSTHookerPing.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.BDDStyle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/Users/Siddh/IdeaProjects/APIAutomationUsingReSTAssuaredLibrary/testng.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.DeleteBooking.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.GetAndPUT.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.IntegrationTestCase.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NonBDD.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.NonBDDStyle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ReSTHooker.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Sidebyside.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UpdateDetails.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.UpdatePartialDetails.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -165,7 +164,63 @@
       <option name="project" value="LOCAL" />
       <updated>1723991955603</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="PUT Request">
+      <option name="closed" value="true" />
+      <created>1723996486609</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723996486609</updated>
+    </task>
+    <task id="LOCAL-00011" summary="PATCH Request">
+      <option name="closed" value="true" />
+      <created>1723996506960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723996506960</updated>
+    </task>
+    <task id="LOCAL-00012" summary="DELETE Request">
+      <option name="closed" value="true" />
+      <created>1723996524981</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723996524981</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".">
+      <option name="closed" value="true" />
+      <created>1723996546846</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723996546846</updated>
+    </task>
+    <task id="LOCAL-00014" summary="FullAPIAutomation">
+      <option name="closed" value="true" />
+      <created>1724003160801</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724003160803</updated>
+    </task>
+    <task id="LOCAL-00015" summary="POM Update">
+      <option name="closed" value="true" />
+      <created>1724003182329</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1724003182329</updated>
+    </task>
+    <task id="LOCAL-00016" summary="IntegrationTestCase">
+      <option name="closed" value="true" />
+      <created>1724003466389</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724003466389</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +241,13 @@
     <MESSAGE value="TestNG" />
     <MESSAGE value="Get Response" />
     <MESSAGE value="POST Request" />
-    <option name="LAST_COMMIT_MESSAGE" value="POST Request" />
+    <MESSAGE value="PUT Request" />
+    <MESSAGE value="PATCH Request" />
+    <MESSAGE value="DELETE Request" />
+    <MESSAGE value="." />
+    <MESSAGE value="FullAPIAutomation" />
+    <MESSAGE value="POM Update" />
+    <MESSAGE value="IntegrationTestCase" />
+    <option name="LAST_COMMIT_MESSAGE" value="IntegrationTestCase" />
   </component>
 </project>

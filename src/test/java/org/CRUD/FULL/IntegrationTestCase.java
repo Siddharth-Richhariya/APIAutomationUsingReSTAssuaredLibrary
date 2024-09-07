@@ -12,6 +12,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.testng.Assert.assertEquals;
 
 
 public class IntegrationTestCase {
@@ -99,7 +100,7 @@ public class IntegrationTestCase {
 
         String firstnameResponse = response.then().log().all().extract().path("firstname");
 
-        Assert.assertEquals(firstnameResponse, "James");
+        assertEquals(firstnameResponse, "James");
 
         // 1. RA - Matchers
         validatableResponse.body("firstname", Matchers.equalTo("James"));
@@ -108,7 +109,7 @@ public class IntegrationTestCase {
         //  2. TestNG Asserts -
         //  Assert.assertEquals(firstNameResponse,"Pramod");
         String firstNameResponse = response.then().log().all().extract().path("firstname");
-        Assert.assertEquals(firstNameResponse,"James");
+        assertEquals(firstNameResponse,"James");
 
         String fullResponseJSONString = response.asString();
         System.out.println(fullResponseJSONString);
@@ -121,16 +122,16 @@ public class IntegrationTestCase {
         String checkinDate = jsonPath.getString("bookingdates.checkin");
 
 
-        Assert.assertEquals(firstNameJSONPathExtracted,"James");
-        Assert.assertEquals(lastNameJSONPathExtracted,"Brown");
-        Assert.assertEquals(totalpriceJSONPathExtracted,123);
-        Assert.assertEquals(checkinDate,"2024-01-01");
+        assertEquals(firstNameJSONPathExtracted,"James");
+        assertEquals(lastNameJSONPathExtracted,"Brown");
+        assertEquals(totalpriceJSONPathExtracted,123);
+        assertEquals(checkinDate,"2024-01-01");
         Assert.assertNotNull(totalpriceJSONPathExtracted);
 
 
-//        // JSON Array Response
-//        String checkin = jsonPath.getString("[0][\"bookingdates\"][\"checkin\"]");
-//        System.out.println(checkin);
+        // JSON Array Response
+        String checkin = jsonPath.getString("[0][\"bookingdates\"][\"checkin\"]");
+        System.out.println(checkin);
 
 
         // 4. AssertJ Matching
